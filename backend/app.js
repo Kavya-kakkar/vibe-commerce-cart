@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 const PORT = 5000;
 
-mongoose.connect('mongodb+srv://kavyakakkar234_db_user:FV3yDrjXbm66acG0@cluster0.kxjtzmy.mongodb.net/?appName=Cluster0', 
+mongoose.connect('mongodb+srv://**********************:***************@cluster0.kxjtzmy.mongodb.net/?appName=Cluster0', 
   { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error(err));
