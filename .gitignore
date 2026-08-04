@@ -1,3 +1,82 @@
+# ===========================
+# Dependencies
+# ===========================
 node_modules/
-dist/
+.pnp
+.pnp.js
+
+# ===========================
+# Build Outputs
+# ===========================
+/frontend/build/
+/backend/dist/
 build/
+dist/
+
+# ===========================
+# Environment Variables (Secrets)
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+
+# ===========================
+# Logs
+# ===========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# ===========================
+# OS Generated Files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===========================
+# IDE & Editor
+# ===========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================
+# Testing
+# ===========================
+/coverage/
+.nyc_output/
+
+# ===========================
+# Optional Caches
+# ===========================
+.npm/
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+
+# ===========================
+# Misc
+# ===========================
+*.pem
+*.tgz
+*.zip
+.yarn-integrity
